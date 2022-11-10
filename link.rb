@@ -2,7 +2,7 @@
 class Link < Post
 
   def initialize
-    super
+    super # Наследует все из родительского класса
 
     @url = ''
   end
